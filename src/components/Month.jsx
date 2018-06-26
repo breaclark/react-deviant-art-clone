@@ -4,7 +4,14 @@ import Selection from './Selection';
 
 function Month(props){
   return (
-    <div>
+    <div className='month'>
+      <style jsx>{`
+          .month {
+            border: 1px dashed black;
+            margin: 10px;
+            padding: 0 10px;
+          }
+      `}</style>
       <h3>{props.monthName}</h3>
       <Selection selection={props.selection}/>
     </div>

@@ -34,3 +34,5 @@ Adds proper syntax highlighting to JSX:
 `eslint src/** src/**/**`
 <br>
 `npm install eslint-loader --save-dev`
+<br>
+`npm install --save styled-jsx`

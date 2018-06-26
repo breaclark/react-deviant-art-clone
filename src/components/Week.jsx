@@ -42,7 +42,7 @@ function Week(){
   ];
 
   return (
-    <div>
+    <div className='marketSchedule'>
       {
         marketSchedule.map((marketObject, index) =>
           <Day dayName={marketObject.day}
@@ -51,6 +51,12 @@ function Week(){
             booth={marketObject.booth}
             key={index}/>
         )}
+      <style jsx>{`
+          .marketSchedule {
+            display: flex;
+            justify-content:space-around;
+          }
+      `}</style>
     </div>
   );
 }

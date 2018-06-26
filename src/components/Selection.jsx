@@ -4,7 +4,14 @@ import Food from './Food';
 
 function Selection(props){
   return (
-    <div>
+    <div className='selection'>
+      <style jsx>{`
+        .selection {
+          display: flex;
+          flex-wrap: wrap;
+        }
+      `}
+      </style>
       {
         props.selection.map((foodObject, index) =>
           <Food foodName={foodObject}
