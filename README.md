@@ -1,5 +1,6 @@
 run `npm install`
 <hr>
+Adds proper syntax highlighting to JSX:
 `apm install react@0.16.2`
 <br>
 `npm init`
