@@ -1,14 +1,17 @@
 import React from 'react';
 import Header from './Header';
-import Week from './Week';
-import Year from './Year';
 
 function App(){
   return (
     <div>
+      <style jsx global> {`
+          * {
+            padding: 0;
+            margin: 0;
+            font-family: 'Verdana', sans-serif;
+          }
+          `}</style>
       <Header />
-      <Week />
-      <Year />
     </div>
   );
 }
