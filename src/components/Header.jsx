@@ -12,6 +12,10 @@ function Header() {
             margin: 0 10px;
           }
 
+          .header {
+            position: sticky;
+            top: 0;
+          }
 
           .top-nav {
             background-color: #465b4c;
@@ -73,7 +77,6 @@ function Header() {
             display: flex;
             align-items: center;
             padding-left: 20px;
-
           }
 
           .bottom-nav h4 {
@@ -85,27 +88,27 @@ function Header() {
           }
 
           `}</style>
-        <div className="top-nav">
-          <div className="left-nav">
-            <img src="http://st.deviantart.net/minish/main/logo/logo-mark.png" />
-            <img src="http://st.deviantart.net/minish/main/logo/logo-type.png" />
-            <div>
-              <input />
-            </div>
-            <p>Shop</p>
-            <p>Forum</p>
-            <p>More</p>
-            <button className="submit-btn">Submit</button>
+      <div className="top-nav">
+        <div className="left-nav">
+          <img src="http://st.deviantart.net/minish/main/logo/logo-mark.png" />
+          <img src="http://st.deviantart.net/minish/main/logo/logo-type.png" />
+          <div>
+            <input />
           </div>
-          <div className="right-nav">
-            <p>Join</p>
-            <p>Login</p>
-          </div>
+          <p>Shop</p>
+          <p>Forum</p>
+          <p>More</p>
+          <button className="submit-btn">Submit</button>
         </div>
-        <div className="bottom-nav">
-          <h4>BROWSE</h4>
+        <div className="right-nav">
+          <p>Join</p>
+          <p>Login</p>
         </div>
       </div>
+      <div className="bottom-nav">
+        <h4>BROWSE</h4>
+      </div>
+    </div>
   );
 }
 
